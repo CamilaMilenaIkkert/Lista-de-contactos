@@ -1,0 +1,144 @@
+@import './base.css';
+
+.primerDiv {
+  width: 55vw;
+  background-color: var(--light-1);
+  border: 1px solid var(--light-2);
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nombreApellido {
+  color: var(--dark-1);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.dniContacto,
+.mailContacto {
+  color: var(--dark-2);
+  font-size: 1.25rem;
+}
+
+.dniContacto span,
+.mailContacto span {
+  font-weight: 500;
+}
+
+.editDeleteDiv {
+  display: flex;
+  gap: 8px;
+}
+
+.buttonEdit,
+.buttonDelete {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.buttonEdit {
+  background-color: var(--accent-1);
+  transition: background 0.3s;
+}
+
+.buttonEdit:hover {
+  background-color: var(--accent-2);
+}
+
+.buttonDelete {
+  background-color: var(--accent-3);
+  transition: background 0.3s;
+}
+
+.buttonDelete:hover {
+  background-color: var(--accent-2);
+}
+
+.modalBack, .popUpContainer {
+  background-color: rgba(30, 40, 44, 0.7);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer, .popUpContent {
+  background-color: var(--light-1);
+  color: var(--dark-1);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  width: 33.3333%;
+}
+
+.modalTitle, .popUpMessage {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.modalContent {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.modalBtn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--dark-2);
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.modalBtn:hover {
+  background-color: black;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  color: var(--dark-1);
+  font-weight: 500;
+}
+
+.input-label {
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.button-group {
+  display: flex;
+  /* flex */
+  justify-content: flex-end;
+  /* justify-end */
+  gap: 1rem;
+  /* gap-4 */
+}

@@ -1,0 +1,63 @@
+@import './base.css';
+
+.title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.formContact {
+    width: 40vw;
+    padding: 2rem;
+}
+
+.formContainer {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--dark-1);
+    font-weight: 500;
+}
+
+.formLabel {
+    margin-bottom: 5px;
+}
+
+.formInput {
+    background-color: transparent;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid var(--dark-2);
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+.formInput:hover {
+    border-color: var(--medium);
+}
+
+.formInput:focus {
+    border-color: var(--accent-3);
+    box-shadow: 0 4px 8px rgba(200, 50, 80, 0.4);
+}
+
+#btn {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#btn button {
+    background-color: var(--dark-2);
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#btn button:hover {
+    background-color: black;
+}
