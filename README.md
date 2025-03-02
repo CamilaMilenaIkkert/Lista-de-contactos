@@ -48,7 +48,7 @@ Sigue estos pasos para ejecutar el proyecto de manera local:
 
 1️⃣ Clonar el repositorio
 
-git clone https://github.com/usuario/repo.git
+git clone https://github.com/CamilaMilenaIkkert/Lista-de-contactos.git
 cd repo
 
 2️⃣ Configurar el frontend
